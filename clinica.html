@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Clínica no Topo | Core Logic Systems</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Ajustes específicos para a LP Médica */
+        :root {
+            --accent: #2d89ff; /* Azul médico para transmitir confiança e saúde */
+        }
+        .hero-medical {
+            background: radial-gradient(circle at top right, rgba(45, 137, 255, 0.15), transparent);
+        }
+        .benefit-icon {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            display: block;
+        }
+    </style>
+</head>
+<body class="hero-medical">
+
+    <div id="cursor"></div>
+
+    <header>
+        <div class="logo">CORE LOGIC <span>SYSTEMS.</span></div>
+        <a href="https://wa.me/5516992831214?text=Olá Emerson, vim pela página de clínicas e gostaria de um orçamento." class="cta-main" style="padding: 10px 20px; font-size: 0.7rem;">FALAR COM CONSULTOR</a>
+    </header>
+
+    <div class="hero-container" style="height: 140vh;">
+        <div class="hero-sticky">
+            <span class="tag" style="margin-bottom: 10px;">Exclusivo para Médicos e Clínicas</span>
+            <div class="parallax-text" id="zoomText" style="font-size: clamp(2rem, 8vw, 4.5rem);">SUA CLÍNICA COM<br>AGENDA CHEIA</div>
+            <p class="hero-subtext" id="subtext">Desenvolvemos Landing Pages de alta conversão que transformam visitantes do Google em pacientes agendados no seu WhatsApp.</p>
+            <div class="hero-cta" id="heroCta">
+                <a href="https://wa.me/5516992831214" class="cta-main">SOLICITAR PROPOSTA PARA MINHA CLÍNICA</a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section class="section-padding">
+            <div style="text-align: center; margin-bottom: 60px;">
+                <h2 style="font-size: 2.5rem; letter-spacing: -2px;">Por que médicos escolhem a Core Logic?</h2>
+            </div>
+            <div class="grid-container">
+                <div class="card reveal">
+                    <span class="benefit-icon">🏥</span>
+                    <h3>Autoridade Digital</h3>
+                    <p>Seu consultório merece um design que transmita a mesma seriedade e cuidado que você tem com seus pacientes.</p>
+                </div>
+                <div class="card reveal">
+                    <span class="benefit-icon">📱</span>
+                    <h3>Agendamento Direto</h3>
+                    <p>Integramos botões inteligentes que levam o paciente direto para o agendamento com sua secretária.</p>
+                </div>
+                <div class="card reveal">
+                    <span class="benefit-icon">⚡</span>
+                    <h3>Velocidade Crítica</h3>
+                    <p>Páginas leves que carregam instantaneamente no celular, evitando que o paciente desista da consulta.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding" style="background: #030303;">
+            <div style="text-align: center; margin-bottom: 60px;">
+                <span class="tag">Solução Completa</span>
+                <h2 style="font-size: 2.5rem; letter-spacing: -2px;">Engenharia focada em resultados</h2>
+            </div>
+            <div class="grid-container">
+                <div class="card reveal">
+                    <ul style="list-style: none; color: var(--text-dim); text-align: left;">
+                        <li style="margin-bottom: 15px;">✔️ Otimização para Google Ads</li>
+                        <li style="margin-bottom: 15px;">✔️ Layout Responsivo (Mobile First)</li>
+                        <li style="margin-bottom: 15px;">✔️ Integração com Google Meu Negócio</li>
+                        <li style="margin-bottom: 15px;">✔️ Certificado de Segurança SSL</li>
+                        <li style="margin-bottom: 15px;">✔️ Suporte Técnico Especializado</li>
+                    </ul>
+                    <a href="https://wa.me/5516992831214" class="cta-main" style="margin-top: 20px;">QUERO ESSA SOLUÇÃO</a>
+                </div>
+                <div class="card reveal" style="border-color: var(--accent); background: rgba(45, 137, 255, 0.05);">
+                    <h3 style="color: var(--accent);">Diferencial Core Logic</h3>
+                    <p>Diferente de agências comuns, nós não apenas "fazemos um site". Nós construímos uma máquina de aquisição de pacientes usando <strong>Engenharia de Software</strong> e <strong>IA</strong> para filtrar leads qualificados.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding">
+            <div style="text-align: center; margin-bottom: 40px;">
+                <h2 style="font-size: 2.2rem; letter-spacing: -2px;">Perguntas Frequentes</h2>
+            </div>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="faq-item reveal" onclick="toggleFaq(this)">
+                    <div class="faq-question">O site segue as normas do CFM? <span>+</span></div>
+                    <div class="faq-answer">Sim, desenvolvemos seguindo as diretrizes de publicidade médica, garantindo ética e profissionalismo.</div>
+                </div>
+                <div class="faq-item reveal" onclick="toggleFaq(this)">
+                    <div class="faq-question">Preciso pagar mensalidade? <span>+</span></div>
+                    <div class="faq-answer">Oferecemos planos de manutenção que incluem hospedagem premium, segurança e suporte para você focar apenas nos seus pacientes.</div>
+                </div>
+                <div class="faq-item reveal" onclick="toggleFaq(this)">
+                    <div class="faq-question">Vocês fazem anúncios no Google? <span>+</span></div>
+                    <div class="faq-answer">Sim! Podemos gerenciar suas campanhas de tráfego pago para garantir que sua clínica apareça para quem busca seu serviço agora.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 60px 7%;">
+        <p style="color: var(--text-dim); font-size: 0.9rem;">Desenvolvido por <strong>Emerson Conquista</strong> | Core Logic Systems</p>
+        <div style="margin-top: 20px;">
+            <a href="https://wa.me/5516992831214" class="cta-main">SOLICITAR ORÇAMENTO VIA WHATSAPP</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
